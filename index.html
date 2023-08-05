@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="node_modules/vue/dist/vue.global.js"></script>
     <link rel="stylesheet" href="css/main.css" />
-    <title>Instagram Clone</title>
+    <title>Carmagram</title>
   </head>
   <body>
     <main id="app">
       <header>
-          <div id="logo">Instagram {{ firstName + lastName }}</div>
+          <div id="logo">Instagram</div>
       </header>
       <nav id="top-nav">
         <div class="btn"><</div>
@@ -24,7 +24,7 @@
             <img src="images/post.jpg" alt="Post Image" class="post-image" />
             <img v-bind:src="profileImage" alt="Profile Image" class="profile" />
             <div class="nameholder">
-              <p>{{ userName }}</p>
+              <a href="#">{{ "@" + userName }}</a>
               -
               <h2>{{ firstName + " " + lastName }}</h2>
             </div>
@@ -38,11 +38,11 @@
         <article>
           <div class="post-header">
             <img src="images/post.jpg" alt="Post Image" class="post-image" />
-            <img src="images/profile.jpg" alt="Profile Image" class="profile" />
+            <img v-bind:src="profileImage" alt="Profile Image" class="profile" />
             <div class="nameholder">
-              <p>username</p>
+              <a href="#">{{ "@" + userName }}</a>
               -
-              <h2>Name</h2>
+              <h2>{{ firstName + " " + lastName }}</h2>
             </div>
           </div>
           <p>
@@ -54,27 +54,11 @@
         <article>
           <div class="post-header">
             <img src="images/post.jpg" alt="Post Image" class="post-image" />
-            <img src="images/profile.jpg" alt="Profile Image" class="profile" />
+            <img v-bind:src="profileImage" alt="Profile Image" class="profile" />
             <div class="nameholder">
-              <p>username</p>
+              <a href="#">{{ "@" + userName }}</a>
               -
-              <h2>Name</h2>
-            </div>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugit
-            fuga ullam molestias nihil?
-          </p>
-          <h2>Post Title</h2>
-        </article>
-        <article>
-          <div class="post-header">
-            <img src="images/post.jpg" alt="Post Image" class="post-image" />
-            <img src="images/profile.jpg" alt="Profile Image" class="profile" />
-            <div class="nameholder">
-              <p>username</p>
-              -
-              <h2>Name</h2>
+              <h2>{{ firstName + " " + lastName }}</h2>
             </div>
           </div>
           <p>
