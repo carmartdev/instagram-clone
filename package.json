@@ -3,11 +3,12 @@
     "description": "An Instagram clone",
     "version": "1.0.0",
     "dependencies": {
-        
+        "vue": "^3.3.4",
+        "font-awesome": "^4.7.0"
     },
     "main": "js/main.js",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/carmartdev/instagram-clone.git"
     }
 }
