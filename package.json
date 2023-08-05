@@ -1,0 +1,13 @@
+{
+    "name": "carmagram",
+    "description": "An Instagram clone",
+    "version": "1.0.0",
+    "dependencies": {
+        
+    },
+    "main": "js/main.js",
+    "repository": {
+        "type": "git",
+        "url": ""
+    }
+}
