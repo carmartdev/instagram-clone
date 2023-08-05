@@ -1,8 +1,11 @@
-const app = Vue.createapp({
-  setup() {
-    const message = ref("Hello Vue!");
+const app = Vue.createApp({
+  data() {
     return {
-      message,
+      pageName: 'Developer Shops',
+      firstName: "Joann",
+      lastName: "Rodriquez",
+      userName: "handball",
+      profileImage: "https://randomuser.me/api/portraits/women/42.jpg"
     };
   },
 });

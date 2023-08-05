@@ -11,22 +11,22 @@
   <body>
     <main id="app">
       <header>
-        <div id="logo">Instagram {{ message }}</div>
+          <div id="logo">Instagram {{ firstName + lastName }}</div>
       </header>
       <nav id="top-nav">
         <div class="btn"><</div>
-        <h1>Lorem Ipsum</h1>
+        <h1>{{ pageName }}</h1>
         <div class="btn">Saved</div>
       </nav>
       <section>
         <article>
           <div class="post-header">
             <img src="images/post.jpg" alt="Post Image" class="post-image" />
-            <img src="images/profile.jpg" alt="Profile Image" class="profile" />
+            <img v-bind:src="profileImage" alt="Profile Image" class="profile" />
             <div class="nameholder">
-              <p>username</p>
+              <p>{{ userName }}</p>
               -
-              <h2>Name</h2>
+              <h2>{{ firstName + " " + lastName }}</h2>
             </div>
           </div>
           <p>
