@@ -5,7 +5,8 @@ const app = Vue.createApp({
       firstName: "Joann",
       lastName: "Rodriquez",
       userName: "handball",
-      profileImage: "https://randomuser.me/api/portraits/women/42.jpg"
+      profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
+      postImage: "images/post.jpg"
     };
   },
 });

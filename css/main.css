@@ -104,14 +104,18 @@ article * {
     height: 100%;
     padding: 0;
 }
-.nav-item:hover{
-    background-color: #e5e9f0;
-}
 .btn{
     text-decoration: none;
     color: #3c3c3c;
     background-color: #e5e9f0;
+    cursor: pointer;
 }
 .post-header img{
     cursor: pointer;
+}
+#bottom-nav{
+    justify-content: space-evenly;
+}
+#bottom-nav .nav-item img{
+    width: 25px;
 }

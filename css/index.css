@@ -1,0 +1,50 @@
+#top-nav .nav-item img{
+    width: 25px;
+}
+#top-nav{
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+#top-nav .nav-item{
+    margin: 8px;
+}
+#stories{
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+#stories .nav-item img{
+    border: rgb(120, 148, 250) solid 2px;
+}
+#stories .my-story img{
+    border: black solid 2px;
+}
+#stories .nav-item p{
+    text-align: center;
+    font-size: 15px;
+}
+#stories .nav-item{
+    margin: 1.5%;
+    padding: 5px;
+}
+.post{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.post .like{
+    width: 25px;
+}
+.post *{
+    margin: 0;
+    padding: 0;
+}
+.post img:not(.profile){
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+.post .post-nav img{
+    width: 25px;
+}
+.post-nav div{
+    justify-content: center;
+}

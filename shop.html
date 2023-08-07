@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="node_modules/vue/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Carmagram Shop</title>
+  </head>
+  <body>
+    <main id="app">
+      <header>
+        <div id="logo">Carmagram Shop</div>
+      </header>
+      <nav id="top-nav">
+        <div class="btn"><</div>
+        <h1>{{ pageName }}</h1>
+        <div class="btn">Saved</div>
+      </nav>
+      <section>
+        <article>
+          <div class="post-header">
+            <img src="images/post.jpg" alt="Post Image" class="post-image" />
+            <img
+              v-bind:src="profileImage"
+              alt="Profile Image"
+              class="profile"
+            />
+            <div class="nameholder">
+              <a href="#">{{ "@" + userName }}</a>
+              -
+              <h2>{{ firstName + " " + lastName }}</h2>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugit
+            fuga ullam molestias nihil?
+          </p>
+          <h2>Post Title</h2>
+        </article>
+        <article>
+          <div class="post-header">
+            <img src="images/post.jpg" alt="Post Image" class="post-image" />
+            <img
+              v-bind:src="profileImage"
+              alt="Profile Image"
+              class="profile"
+            />
+            <div class="nameholder">
+              <a href="#">{{ "@" + userName }}</a>
+              -
+              <h2>{{ firstName + " " + lastName }}</h2>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugit
+            fuga ullam molestias nihil?
+          </p>
+          <h2>Post Title</h2>
+        </article>
+        <article>
+          <div class="post-header">
+            <img src="images/post.jpg" alt="Post Image" class="post-image" />
+            <img
+              v-bind:src="profileImage"
+              alt="Profile Image"
+              class="profile"
+            />
+            <div class="nameholder">
+              <a href="#">{{ "@" + userName }}</a>
+              -
+              <h2>{{ firstName + " " + lastName }}</h2>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugit
+            fuga ullam molestias nihil?
+          </p>
+          <h2>Post Title</h2>
+        </article>
+      </section>
+      <nav id="bottom-nav">
+        <a href="#" class="nav-item">
+          <img src="images/homedark.svg" alt="Home" />
+        </a>
+        <a href="#" class="nav-item">
+          <img src="images/search.svg" alt="Search" />
+        </a>
+        <a href="#" class="nav-item">
+          <img src="images/add.png" alt="Add" />
+        </a>
+        <a href="#" class="nav-item">
+          <img src="images/heart.png" alt="Heart" />
+        </a>
+        <a href="#" class="nav-item">
+          <img src="images/person.png" alt="Home" />
+        </a>
+      </nav>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
